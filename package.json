@@ -1,0 +1,14 @@
+{
+  "name": "smart-academic-planner",
+  "version": "1.0.0",
+  "description": "Web-based planner for managing courses and assignments",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
